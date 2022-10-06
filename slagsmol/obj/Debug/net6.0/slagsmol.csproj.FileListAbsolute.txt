@@ -1,0 +1,15 @@
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\bin\Debug\net6.0\slagsmol.exe
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\bin\Debug\net6.0\slagsmol.deps.json
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\bin\Debug\net6.0\slagsmol.runtimeconfig.json
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\bin\Debug\net6.0\slagsmol.dll
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\bin\Debug\net6.0\slagsmol.pdb
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\obj\Debug\net6.0\slagsmol.csproj.AssemblyReference.cache
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\obj\Debug\net6.0\slagsmol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\obj\Debug\net6.0\slagsmol.AssemblyInfoInputs.cache
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\obj\Debug\net6.0\slagsmol.AssemblyInfo.cs
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\obj\Debug\net6.0\slagsmol.csproj.CoreCompileInputs.cache
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\obj\Debug\net6.0\slagsmol.dll
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\obj\Debug\net6.0\refint\slagsmol.dll
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\obj\Debug\net6.0\slagsmol.pdb
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\obj\Debug\net6.0\slagsmol.genruntimeconfig.cache
+C:\Users\daniel.taherkhanian\Documents\C# slagsmol\slagsmol\slagsmol\obj\Debug\net6.0\ref\slagsmol.dll
