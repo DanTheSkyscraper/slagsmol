@@ -109,16 +109,16 @@ while (again == "y") // the while-loop makes it so that the game restarts if you
         
         Console.WriteLine("-------------------------");
         Console.WriteLine("It is now your turn to attack!");
-        Console.WriteLine($"You attack the enemy with your {player_weapon}!"); // The code from line 111 to 116, and then from 119 to 125, shows the weapons the players character and the enemyAI have chosen to attack each other with. This code will also randomize how much damage they deal with the help of 'generator.Next(weaponMinDamage, weaponMaxDamage);', which randomizes a number between 0 to 20, with 0 being the minimum number and 20 being the maximum number.
+        Console.WriteLine($"You attack the enemy with your {player_weapon}!"); // The code from line 111 to 117, and then from 119 to 125, shows the weapons the players character and the enemyAI have chosen to attack each other with. This code will also randomize how much damage they deal with the help of 'generator.Next(weaponMinDamage, weaponMaxDamage);', which randomizes a number between 0 to 20, with 0 being the minimum number and 20 being the maximum number.
         int player_damage = generator.Next(weaponMinDamage, weaponMaxDamage); 
         Console.WriteLine("'Argh!'");
-        enemyAI_health -= player_damage; // This code (line 114 and line 122) will subtract the health of the player and enemyAI with the damage they deal to each other.
+        enemyAI_health -= player_damage; // This code (line 115 and line 123) will subtract the health of the player and enemyAI with the damage they deal to each other.
         enemyAI_health = Math.Max(0, enemyAI_health); // 'Math.Max' is a Math class method used to return the larger of two specified numbers. In this code, 'enemyAI_health = Math.Max(0, enemyAI_health);' will not return 0, but 'enemyAI_health', which is the health of the enemyAI and larger of the two numbers.
         Console.WriteLine($"You strike your opponent and deal {player_damage} damage to {enemyAI_name}.");
 
         Console.WriteLine($"It is now {enemyAI_name}s turn to attack!");
         Console.WriteLine($"{enemyAI_name} attacks you with their {enemyAI_weapon}!"); // This is the same as the code above, just that it is the code that shows which weapon 'enemyAI' uses, how much damage they deal to the player, and subtracts that damage from the players health. 
-        int enemyAI_damage = generator.Next(weaponMinDamage, weaponMaxDamage); // For more info, see comments on line 111 to 116.
+        int enemyAI_damage = generator.Next(weaponMinDamage, weaponMaxDamage); // For more info, see comments on line 112 to 117.
         Console.WriteLine("'Ouch!'");
         player_health -= enemyAI_damage;
         player_health = Math.Max(0, player_health);
@@ -130,7 +130,7 @@ while (again == "y") // the while-loop makes it so that the game restarts if you
     Console.WriteLine("//Who shall be the one to remain standing?//");
     Console.WriteLine("...");
 
-    if(player_health == 0) // Depending on the health of the player and the enemyAI, the code from line 132 to 149 will show different things. 
+    if(player_health == 0) // Depending on the health of the player and the enemyAI, the code from line 133 to 151 will show different things. 
     {
         Console.WriteLine($"{enemyAI_name} has defeated you! {enemyAI_name} wins!"); // If the health of the player reaches 0, this code will declare enemyAI the winner.
         Console.WriteLine("'Better luck next time, buddy.'");
